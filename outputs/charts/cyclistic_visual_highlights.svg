@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+<style>
+  .bg{fill:#f8fafc}.card{fill:white;stroke:#d1d5db;stroke-width:1.5}.title{font:700 34px Arial;fill:#111827}.sub{font:400 18px Arial;fill:#6b7280}.h{font:700 23px Arial;fill:#111827}.txt{font:400 14px Arial;fill:#6b7280}.lab{font:400 13px Arial;fill:#6b7280}.num{font:700 17px Arial;fill:#111827}.grid{stroke:#e5e7eb;stroke-width:1}.c{fill:#fb7185}.m{fill:#14b8a6}.linec{fill:none;stroke:#fb7185;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.linem{fill:none;stroke:#14b8a6;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<rect width="1600" height="1200" class="bg"/>
+<text x="60" y="55" class="title">Cyclistic Bike-Share Data Analysis - Visual Highlights</text>
+<text x="60" y="86" class="sub">Excel / Python / SQL / RStudio validation summary | July 2024 - June 2025</text>
+
+<!-- Trips by Day -->
+<g transform="translate(60,120)"><rect width="700" height="300" rx="14" class="card"/><text x="25" y="38" class="h">Trips by Day</text>
+<line x1="70" y1="245" x2="620" y2="245" class="grid"/><line x1="70" y1="190" x2="620" y2="190" class="grid"/><line x1="70" y1="135" x2="620" y2="135" class="grid"/><line x1="70" y1="80" x2="620" y2="80" class="grid"/>
+<text x="58" y="250" class="lab" text-anchor="end">0</text><text x="58" y="85" class="lab" text-anchor="end">552k</text>
+<g transform="translate(85,0)">
+<rect class="c" x="0" y="145" width="18" height="100"/><rect class="m" x="22" y="129" width="18" height="116"/><text x="20" y="270" class="lab" text-anchor="middle">Sun</text>
+<rect class="c" x="80" y="171" width="18" height="74"/><rect class="m" x="102" y="88" width="18" height="157"/><text x="100" y="270" class="lab" text-anchor="middle">Mon</text>
+<rect class="c" x="160" y="178" width="18" height="67"/><rect class="m" x="182" y="80" width="18" height="165"/><text x="180" y="270" class="lab" text-anchor="middle">Tue</text>
+<rect class="c" x="240" y="174" width="18" height="71"/><rect class="m" x="262" y="80" width="18" height="165"/><text x="260" y="270" class="lab" text-anchor="middle">Wed</text>
+<rect class="c" x="320" y="166" width="18" height="79"/><rect class="m" x="342" y="80" width="18" height="165"/><text x="340" y="270" class="lab" text-anchor="middle">Thu</text>
+<rect class="c" x="400" y="148" width="18" height="97"/><rect class="m" x="422" y="89" width="18" height="156"/><text x="420" y="270" class="lab" text-anchor="middle">Fri</text>
+<rect class="c" x="480" y="118" width="18" height="127"/><rect class="m" x="502" y="111" width="18" height="134"/><text x="500" y="270" class="lab" text-anchor="middle">Sat</text>
+</g><rect x="595" y="44" width="14" height="14" class="c"/><text x="617" y="56" class="txt">Casual</text><rect x="595" y="68" width="14" height="14" class="m"/><text x="617" y="80" class="txt">Member</text></g>
+
+<!-- Trips by Month -->
+<g transform="translate(840,120)"><rect width="700" height="300" rx="14" class="card"/><text x="25" y="38" class="h">Trips by Month</text>
+<line x1="70" y1="245" x2="620" y2="245" class="grid"/><line x1="70" y1="190" x2="620" y2="190" class="grid"/><line x1="70" y1="135" x2="620" y2="135" class="grid"/><line x1="70" y1="80" x2="620" y2="80" class="grid"/>
+<text x="58" y="250" class="lab" text-anchor="end">0</text><text x="58" y="85" class="lab" text-anchor="end">474k</text>
+<g transform="translate(83,0)">
+<rect class="c" x="0" y="236" width="13" height="9"/><rect class="m" x="15" y="201" width="13" height="44"/><text x="14" y="270" class="lab" text-anchor="middle">Jan</text>
+<rect class="c" x="45" y="234" width="13" height="11"/><rect class="m" x="60" y="197" width="13" height="48"/><text x="58" y="270" class="lab" text-anchor="middle">Feb</text>
+<rect class="c" x="90" y="212" width="13" height="33"/><rect class="m" x="105" y="163" width="13" height="82"/><text x="104" y="270" class="lab" text-anchor="middle">Mar</text>
+<rect class="c" x="135" y="203" width="13" height="42"/><rect class="m" x="150" y="144" width="13" height="101"/><text x="149" y="270" class="lab" text-anchor="middle">Apr</text>
+<rect class="c" x="180" y="174" width="13" height="71"/><rect class="m" x="195" y="121" width="13" height="124"/><text x="194" y="270" class="lab" text-anchor="middle">May</text>
+<rect class="c" x="225" y="132" width="13" height="113"/><rect class="m" x="240" y="95" width="13" height="150"/><text x="239" y="270" class="lab" text-anchor="middle">Jun</text>
+<rect class="c" x="270" y="121" width="13" height="124"/><rect class="m" x="285" y="79" width="13" height="166"/><text x="284" y="270" class="lab" text-anchor="middle">Jul</text>
+<rect class="c" x="315" y="121" width="13" height="124"/><rect class="m" x="330" y="75" width="13" height="170"/><text x="329" y="270" class="lab" text-anchor="middle">Aug</text>
+<rect class="c" x="360" y="110" width="13" height="135"/><rect class="m" x="375" y="60" width="13" height="185"/><text x="374" y="270" class="lab" text-anchor="middle">Sep</text>
+<rect class="c" x="405" y="161" width="13" height="84"/><rect class="m" x="420" y="90" width="13" height="155"/><text x="419" y="270" class="lab" text-anchor="middle">Oct</text>
+<rect class="c" x="450" y="211" width="13" height="34"/><rect class="m" x="465" y="151" width="13" height="94"/><text x="464" y="270" class="lab" text-anchor="middle">Nov</text>
+<rect class="c" x="495" y="230" width="13" height="15"/><rect class="m" x="510" y="190" width="13" height="55"/><text x="509" y="270" class="lab" text-anchor="middle">Dec</text>
+</g><rect x="595" y="44" width="14" height="14" class="c"/><text x="617" y="56" class="txt">Casual</text><rect x="595" y="68" width="14" height="14" class="m"/><text x="617" y="80" class="txt">Member</text></g>
+
+<!-- User type -->
+<g transform="translate(60,490)"><rect width="700" height="300" rx="14" class="card"/><text x="25" y="38" class="h">Total Trips by User Type</text>
+<rect x="130" y="100" width="130" height="145" rx="7" class="m"/><text x="195" y="92" class="num" text-anchor="middle">3,540,919</text><text x="195" y="128" font="700 16px Arial" fill="white" text-anchor="middle">63.3%</text><text x="195" y="275" class="txt" text-anchor="middle">Member</text>
+<rect x="360" y="140" width="130" height="105" rx="7" class="c"/><text x="425" y="132" class="num" text-anchor="middle">2,049,922</text><text x="425" y="168" font="700 16px Arial" fill="white" text-anchor="middle">36.7%</text><text x="425" y="275" class="txt" text-anchor="middle">Casual</text>
+<rect x="570" y="86" width="14" height="14" class="m"/><text x="592" y="98" class="txt">Member</text><rect x="570" y="110" width="14" height="14" class="c"/><text x="592" y="122" class="txt">Casual</text></g>
+
+<!-- Avg ride length -->
+<g transform="translate(840,490)"><rect width="700" height="300" rx="14" class="card"/><text x="25" y="38" class="h">Average Ride Length by Day</text>
+<line x1="70" y1="245" x2="620" y2="245" class="grid"/><line x1="70" y1="190" x2="620" y2="190" class="grid"/><line x1="70" y1="135" x2="620" y2="135" class="grid"/><line x1="70" y1="80" x2="620" y2="80" class="grid"/>
+<text x="58" y="250" class="lab" text-anchor="end">0</text><text x="58" y="85" class="lab" text-anchor="end">25m</text>
+<g transform="translate(85,0)">
+<rect class="c" x="0" y="76" width="18" height="169"/><rect class="m" x="22" y="149" width="18" height="96"/><text x="20" y="270" class="lab" text-anchor="middle">Sun</text>
+<rect class="c" x="80" y="102" width="18" height="143"/><rect class="m" x="102" y="161" width="18" height="84"/><text x="100" y="270" class="lab" text-anchor="middle">Mon</text>
+<rect class="c" x="160" y="116" width="18" height="129"/><rect class="m" x="182" y="161" width="18" height="84"/><text x="180" y="270" class="lab" text-anchor="middle">Tue</text>
+<rect class="c" x="240" y="118" width="18" height="127"/><rect class="m" x="262" y="161" width="18" height="84"/><text x="260" y="270" class="lab" text-anchor="middle">Wed</text>
+<rect class="c" x="320" y="114" width="18" height="131"/><rect class="m" x="342" y="160" width="18" height="85"/><text x="340" y="270" class="lab" text-anchor="middle">Thu</text>
+<rect class="c" x="400" y="101" width="18" height="144"/><rect class="m" x="422" y="158" width="18" height="87"/><text x="420" y="270" class="lab" text-anchor="middle">Fri</text>
+<rect class="c" x="480" y="78" width="18" height="167"/><rect class="m" x="502" y="149" width="18" height="96"/><text x="500" y="270" class="lab" text-anchor="middle">Sat</text>
+</g><rect x="595" y="44" width="14" height="14" class="c"/><text x="617" y="56" class="txt">Casual</text><rect x="595" y="68" width="14" height="14" class="m"/><text x="617" y="80" class="txt">Member</text></g>
+
+<!-- Hourly -->
+<g transform="translate(60,860)"><rect width="700" height="300" rx="14" class="card"/><text x="25" y="38" class="h">Hourly Usage Pattern</text>
+<line x1="70" y1="245" x2="620" y2="245" class="grid"/><line x1="70" y1="190" x2="620" y2="190" class="grid"/><line x1="70" y1="135" x2="620" y2="135" class="grid"/><line x1="70" y1="80" x2="620" y2="80" class="grid"/>
+<text x="58" y="250" class="lab" text-anchor="end">0</text><text x="58" y="85" class="lab" text-anchor="end">376k</text>
+<polyline class="linec" points="70,227 94,233 118,238 142,241 166,242 190,239 214,231 238,220 262,210 286,210 310,203 334,191 358,181 382,178 406,175 430,167 454,157 478,150 502,164 526,185 550,202 574,209 598,214 620,224"/>
+<polyline class="linem" points="70,229 94,235 118,240 142,242 166,241 190,228 214,196 238,149 262,122 286,163 310,174 334,162 358,151 382,153 406,152 430,128 454,83 478,60 502,101 526,145 550,176 574,191 598,207 620,222"/>
+<text x="70" y="270" class="lab" text-anchor="middle">0</text><text x="166" y="270" class="lab" text-anchor="middle">4</text><text x="262" y="270" class="lab" text-anchor="middle">8</text><text x="358" y="270" class="lab" text-anchor="middle">12</text><text x="454" y="270" class="lab" text-anchor="middle">16</text><text x="550" y="270" class="lab" text-anchor="middle">20</text>
+<rect x="595" y="44" width="14" height="14" class="c"/><text x="617" y="56" class="txt">Casual</text><rect x="595" y="68" width="14" height="14" class="m"/><text x="617" y="80" class="txt">Member</text></g>
+
+<!-- Duration category -->
+<g transform="translate(840,860)"><rect width="700" height="300" rx="14" class="card"/><text x="25" y="38" class="h">Ride Duration Category Distribution</text>
+<line x1="70" y1="245" x2="620" y2="245" class="grid"/><line x1="70" y1="190" x2="620" y2="190" class="grid"/><line x1="70" y1="135" x2="620" y2="135" class="grid"/><line x1="70" y1="80" x2="620" y2="80" class="grid"/>
+<text x="58" y="250" class="lab" text-anchor="end">0</text><text x="58" y="85" class="lab" text-anchor="end">2.06M</text>
+<g transform="translate(110,0)">
+<rect class="c" x="0" y="165" width="32" height="80"/><rect class="m" x="38" y="60" width="32" height="185"/><text x="35" y="270" class="lab" text-anchor="middle">&lt;=10</text>
+<rect class="c" x="150" y="192" width="32" height="53"/><rect class="m" x="188" y="156" width="32" height="89"/><text x="185" y="270" class="lab" text-anchor="middle">&gt;10-20</text>
+<rect class="c" x="300" y="223" width="32" height="22"/><rect class="m" x="338" y="218" width="32" height="27"/><text x="335" y="270" class="lab" text-anchor="middle">&gt;20-30</text>
+<rect class="c" x="450" y="216" width="32" height="29"/><rect class="m" x="488" y="228" width="32" height="17"/><text x="485" y="270" class="lab" text-anchor="middle">&gt;30</text>
+</g><rect x="595" y="44" width="14" height="14" class="c"/><text x="617" y="56" class="txt">Casual</text><rect x="595" y="68" width="14" height="14" class="m"/><text x="617" y="80" class="txt">Member</text></g>
+
+<text x="60" y="1168" class="txt">Source: Google Data Analytics Capstone report by Ronaldo Firmansyah. Raw dataset is not included in repository.</text>
+</svg>
