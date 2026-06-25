@@ -1,0 +1,28 @@
+# Local / large files
+excel/sheets.xlsx
+excel/*.xlsx
+excel/*.xlsb
+excel/*.xlsm
+
+# Raw datasets are intentionally not stored in this repository
+# Use the official public source link in README instead.
+data/raw/
+*.zip
+*.rar
+*.7z
+*.csv.gz
+*.sql.gz
+
+# Python / notebook temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Environment / secrets
+.env
+*.env
