@@ -1,0 +1,4 @@
+user_type,less_than_or_equal_10,greater_than_10_and_less_than_or_equal_20,greater_than_20_and_less_than_or_equal_30,over_30,total
+casual,887173,593724,244300,324725,2049922
+member,2057844,997043,298530,187502,3540919
+total,2945017,1590767,542830,512227,5590841
