@@ -74,12 +74,21 @@ The analysis followed an end-to-end data analytics process:
 
 ---
 
+## Visual Highlights
+
+The visual summary below condenses the main findings across Excel, Python, SQL, and RStudio validation.
+
+![Cyclistic Visual Highlights](outputs/charts/cyclistic_visual_highlights.svg)
+
+---
+
 ## Documentation Index
 
 | Document | Description |
 |---|---|
 | [Full Report](docs/Data-Analytics_Ronaldo-Firmansyah.pdf) | Complete 82-page project report |
 | [Project Summary](docs/project_summary.md) | Short project summary, methodology, findings, and recommendations |
+| [Visual Highlights](outputs/charts/cyclistic_visual_highlights.svg) | Portfolio-ready visual summary of the main analysis results |
 | [Excel / Power Query Workflow](excel/power_query_workflow.md) | Excel cleaning and transformation steps |
 | [Excel Analysis Results](excel/excel_results_summary.md) | Excel Pivot Table outputs and interpretation |
 | [SQL Workflow](sql/README.md) | SQL workflow assumptions and query coverage |
@@ -178,6 +187,8 @@ cyclistic-bike-share-data-analysis/
 |   |-- README.md
 |
 |-- outputs/
+|   |-- charts/
+|   |   |-- cyclistic_visual_highlights.svg
 |   |-- tables/
 |       |-- summary_results.md
 ```
@@ -196,7 +207,7 @@ The full report is available here:
 
 - Raw dataset files are not included in this repository.
 - Large Excel workbook files are excluded because they exceed GitHub's recommended file size usage and are not necessary for reviewing the project.
-- The repository focuses on documentation, analysis workflow, summary outputs, and portfolio presentation.
+- The repository focuses on documentation, analysis workflow, summary outputs, visuals, and portfolio presentation.
 
 ---
 
