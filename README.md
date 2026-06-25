@@ -74,6 +74,20 @@ The analysis followed an end-to-end data analytics process:
 
 ---
 
+## Documentation Index
+
+| Document | Description |
+|---|---|
+| [Full Report](docs/Data-Analytics_Ronaldo-Firmansyah.pdf) | Complete 82-page project report |
+| [Project Summary](docs/project_summary.md) | Short project summary, methodology, findings, and recommendations |
+| [Excel / Power Query Workflow](excel/power_query_workflow.md) | Excel cleaning and transformation steps |
+| [Excel Analysis Results](excel/excel_results_summary.md) | Excel Pivot Table outputs and interpretation |
+| [SQL Workflow](sql/README.md) | SQL workflow assumptions and query coverage |
+| [SQL Analysis Queries](sql/analysis_queries.sql) | SQL templates for analysis queries |
+| [Summary Results](outputs/tables/summary_results.md) | Final metrics, findings, and recommendations |
+
+---
+
 ## Key Metrics
 
 | Metric | Value |
@@ -151,6 +165,7 @@ cyclistic-bike-share-data-analysis/
 |
 |-- excel/
 |   |-- power_query_workflow.md
+|   |-- excel_results_summary.md
 |
 |-- sql/
 |   |-- README.md
