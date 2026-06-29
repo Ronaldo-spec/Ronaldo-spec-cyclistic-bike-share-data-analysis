@@ -258,7 +258,10 @@ Potential improvements:
 
 | Document | Description |
 |---|---|
-| [Full Report](docs/Data-Analytics_Ronaldo-Firmansyah.pdf) | Complete 82-page project report |
+| [Full Report - Indonesian PDF](docs/Data-Analytics_Ronaldo-Firmansyah.pdf) | Original complete project report in Indonesian |
+| [English Portfolio Report - Markdown](docs/Data-Analytics_Ronaldo-Firmansyah_EN.md) | Concise English portfolio report for GitHub review |
+| [English Portfolio Report - Secured PDF](docs/Data-Analytics_Ronaldo-Firmansyah_EN.pdf) | English PDF report with restricted copy/extraction/modification permissions in compliant PDF viewers |
+| [English Report Note](docs/english_report_note.md) | Notes about the English report files and PDF security limitation |
 | [Project Summary](docs/project_summary.md) | Short project summary, methodology, findings, and recommendations |
 | [Visual Highlights](outputs/charts/cyclistic_visual_highlights.svg) | Portfolio-ready visual summary of the main analysis results |
 | [Excel / Power Query Workflow](excel/power_query_workflow.md) | Excel cleaning and transformation steps |
@@ -279,6 +282,9 @@ cyclistic-bike-share-data-analysis/
 |
 |-- docs/
 |   |-- Data-Analytics_Ronaldo-Firmansyah.pdf
+|   |-- Data-Analytics_Ronaldo-Firmansyah_EN.md
+|   |-- Data-Analytics_Ronaldo-Firmansyah_EN.pdf
+|   |-- english_report_note.md
 |   |-- project_summary.md
 |
 |-- data/
@@ -322,15 +328,17 @@ cyclistic-bike-share-data-analysis/
 | Database & querying | SQL, MariaDB / MySQL |
 | Programming & analysis | Python, Google Colab, pandas, numpy |
 | Statistical analysis & visualization | RStudio, dplyr, ggplot2 |
-| Documentation | PDF report, Markdown, GitHub |
+| Documentation | PDF report, secured PDF, Markdown, GitHub |
 
 ---
 
-## Full Report
+## Full Reports
 
-The full report is available here:
+The project reports are available here:
 
-[Data Analytics Report - Ronaldo Firmansyah](docs/Data-Analytics_Ronaldo-Firmansyah.pdf)
+- [Original Indonesian Report](docs/Data-Analytics_Ronaldo-Firmansyah.pdf)
+- [English Portfolio Report - Markdown](docs/Data-Analytics_Ronaldo-Firmansyah_EN.md)
+- [English Portfolio Report - Secured PDF](docs/Data-Analytics_Ronaldo-Firmansyah_EN.pdf)
 
 ---
 
@@ -338,6 +346,8 @@ The full report is available here:
 
 - Raw dataset files are not included in this repository.
 - Large Excel workbook files are excluded because they exceed GitHub's recommended file size usage and are not necessary for reviewing the project.
+- The English DOCX source file is not included to keep the repository focused on review-ready documentation and reduce editable source distribution.
+- The English PDF was generated with restricted permissions for copy, extraction, modification, and printing in compliant PDF viewers. This reduces casual copying, but it cannot fully prevent screenshots, OCR, or conversion tools that ignore PDF permissions.
 - The repository focuses on documentation, analysis workflow, summary outputs, visuals, and portfolio presentation.
 
 ---
