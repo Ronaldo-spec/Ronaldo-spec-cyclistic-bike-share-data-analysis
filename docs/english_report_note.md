@@ -2,9 +2,10 @@
 
 This folder includes the English version of the Cyclistic bike-share data analysis report.
 
-## File
+## Files
 
-- `Data-Analytics_Ronaldo-Firmansyah_EN.pdf`
+- `Data-Analytics_Ronaldo-Firmansyah_EN.md` - English portfolio report in Markdown format for easy review on GitHub.
+- `Data-Analytics_Ronaldo-Firmansyah_EN.pdf` - secured PDF version for portfolio distribution.
 
 ## Security Note
 
